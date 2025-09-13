@@ -1,0 +1,17 @@
+ *{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+ }
+ body {
+  block-size: 100%;
+  background-image: url("https://previews.123rf.com/images/saicle/saicle1509/saicle150900010/44651347-minimal-blue-tech-abstract-background-vector-design.jpg");
+  background-repeat: no-repeat;   
+  background-size: cover;         
+  background-position: center;    
+  height: 100vh;                  
+  margin: 0;                      
+}
+  body{
+    color: black;
+  }

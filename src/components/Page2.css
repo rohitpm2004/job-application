@@ -1,0 +1,114 @@
+.Page2-container{
+    /* inline-size: 50%; */
+    font-family: sans-serif;
+    
+    padding: 30px;
+    /* color: white; */
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.left{
+    inline-size: 40%;
+    /* background-color: red; */
+}
+/* .form-input{
+    display: flex;
+    flex-direction: column;
+      
+} */
+.right{
+    inline-size: 40%;
+    block-size: 75vb;
+    /* background-color: rgb(47, 0, 255); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+}
+.page-h1{
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+.Page2-about{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.h3{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.para{
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.Page2-Response{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.para2-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Page2-Need{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input-page2{
+    inline-size: 300px;
+    block-size: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.name{
+    display: flex;
+    inline-size: 550px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+label{
+    font-size: 2rem;
+}
+.page-h{
+    font-size: 2.5rem;
+}
+.Form-submit{
+    inline-size: 200px;
+    block-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: pink;
+
+}
+.Form-submit:active{
+    background-color: rgba(255, 192, 203, 0.542);
+}
+
+
+.input-page3{
+    inline-size: 300px;
+    block-size: 60px;
+    font-size: 1.3rem;
+}
+
+.botton-wrap{
+    display: flex;
+}

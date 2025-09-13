@@ -1,0 +1,139 @@
+.logoImg{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left:20px;
+}
+.container{
+    inline-size: auto;
+    block-size: 100px;
+    background-color:  rgba(0, 255, 255, 0.597);
+    font-family:sans-serif ;
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+   
+    font-size: 2.5rem;
+     font-weight: 100px;
+    text-decoration: none;
+}
+#jobs1{
+    inline-size: 250px;
+    block-size: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius:10px  10px;
+}
+form{
+    inline-size: 300px;
+    block-size: 50px;
+    display: flex;
+    
+}
+ 
+.button1{
+    inline-size: 70px;
+    block-size: 35px;
+    cursor: pointer;
+    border-radius:0px  10px 10px 0px   ;
+    font-size: 20px;
+    border: none;
+
+}
+#jobs1{
+     border-radius:10px 0px 0px 10px   ;
+}
+#jobs{
+    inline-size: 150px;
+    block-size: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.li1{
+    inline-size: 80px;
+    block-size: 40px;
+    background-color: rgb(227, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+.li2{
+    inline-size: 300px;
+    block-size: 50px;
+    font-size: 1rem;
+    background-color: rgb(8, 101, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.li2  :active{
+    background-color:rgba(208, 209, 197, 0.447) ;
+
+}
+.li1  :active{
+    background-color: rgba(227, 200, 200, 0.658) ;
+}
+
+ 
+.in{
+    inline-size: 100px;
+    block-size: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(57, 57, 136, 0.345);
+}
+
+.up{
+    inline-size: 80px;
+    block-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(67, 185, 67, 0.477);
+}
+
+.complete-out{
+    display: flex;
+    align-items: center;
+    inline-size: 40%;
+    justify-content: space-around;
+}
+.complete{
+    display: flex;
+    align-items: center;
+}
+
+.Form-submit1{
+    inline-size: 250px;
+    block-size: 30px;
+    margin-bottom:20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(97, 174, 66, 0.46);
+}
+ 
